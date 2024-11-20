@@ -13,6 +13,7 @@ repositories {
 dependencies {
     testImplementation(kotlin("test")) // The Kotlin test library
     testImplementation("org.assertj:assertj-core:3.26.3")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.11.0")
 }
 
 kotlin {
